@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <name>spring-remoting</name>
     <description>Parent for all projects related to Spring Remoting.</description>
-    
+
     <dependencyManagement>
         <dependencies>
             <!-- companion modules -->

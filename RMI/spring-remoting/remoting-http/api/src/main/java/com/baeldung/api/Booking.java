@@ -8,7 +8,7 @@ public class Booking implements Serializable {
     private String bookingCode;
 
     @Override public String toString() {
-        return format("Ride confirmed: code '%s'.", bookingCode);
+        return format("Your ride has been confirmed: CODE: '%s'.", bookingCode);
     }
 
     public Booking(String bookingCode) {

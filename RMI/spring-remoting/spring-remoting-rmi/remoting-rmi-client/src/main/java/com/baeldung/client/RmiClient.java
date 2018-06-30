@@ -10,16 +10,17 @@ import org.springframework.remoting.rmi.RmiProxyFactoryBean;
 
 @SpringBootApplication public class RmiClient {
 
-    @Bean RmiProxyFactoryBean service() {
+    @Bean
+    RmiProxyFactoryBean service() {
         RmiProxyFactoryBean rmiProxyFactory = new RmiProxyFactoryBean();
-        rmiProxyFactory.setServiceUrl("rmi://localhost:1099/CabBookingService");
+        rmiProxyFactory.setServiceUrl("rmi://localhost:1001/CabBookingService");
         rmiProxyFactory.setServiceInterface(CabBookingService.class);
         return rmiProxyFactory;
     }
 
     public static void main(String[] args) throws BookingException {
         CabBookingService service = SpringApplication.run(RmiClient.class, args).getBean(CabBookingService.class);
-        Booking bookingOutcome = service.bookRide("13 Seagate Blvd, Key Largo, FL 33037");
+        Booking bookingOutcome = service.bookRide("213 Ole Sangale Road, Next to Strathmore University");
         System.out.println(bookingOutcome);
     }
 

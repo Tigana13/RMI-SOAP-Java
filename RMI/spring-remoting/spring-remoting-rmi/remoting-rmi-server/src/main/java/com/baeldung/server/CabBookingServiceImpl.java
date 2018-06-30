@@ -10,7 +10,7 @@ import static java.util.UUID.randomUUID;
 public class CabBookingServiceImpl implements CabBookingService {
 
     @Override public Booking bookRide(String pickUpLocation) throws BookingException {
-        if (random() < 0.3) throw new BookingException("Cab unavailable");
+        if (random() < 0.3) throw new BookingException("Sorry, there are no cabs available at this moment");
         return new Booking(randomUUID().toString());
     }
 }
