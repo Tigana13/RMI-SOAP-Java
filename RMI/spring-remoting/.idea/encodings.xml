@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-amqp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-amqp/remoting-amqp-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-amqp/remoting-amqp-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-hessian-burlap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-hessian-burlap/client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-hessian-burlap/server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-http" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-http/api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-http/client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-http/server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-jms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-jms/remoting-jms-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remoting-jms/remoting-jms-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-remoting-rmi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-remoting-rmi/remoting-rmi-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-remoting-rmi/remoting-rmi-server" charset="UTF-8" />
+  </component>
+</project>
