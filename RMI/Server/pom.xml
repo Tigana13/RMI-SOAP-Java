@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>remoting-rmi-server</artifactId>
+    <artifactId>RMI-Server</artifactId>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -31,7 +31,7 @@
             <artifactId>api</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.baeldung</groupId>
+            <groupId>com.assignment</groupId>
             <artifactId>api</artifactId>
             <version>${project.version}</version>
         </dependency>

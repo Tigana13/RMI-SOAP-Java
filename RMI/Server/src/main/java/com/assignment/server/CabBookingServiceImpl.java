@@ -1,4 +1,4 @@
-package com.baeldung.server;
+package com.assignment.server;
 
 import com.baeldung.api.Booking;
 import com.baeldung.api.BookingException;
@@ -10,7 +10,7 @@ import static java.util.UUID.randomUUID;
 public class CabBookingServiceImpl implements CabBookingService {
 
     @Override public Booking bookRide(String pickUpLocation) throws BookingException {
-        if (random() < 0.3) throw new BookingException("Cab unavailable");
+        if (random() < 0.9) throw new BookingException("There's not cab available");
         return new Booking(randomUUID().toString());
     }
 }

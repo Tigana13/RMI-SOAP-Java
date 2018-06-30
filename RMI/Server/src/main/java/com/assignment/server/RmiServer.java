@@ -1,4 +1,4 @@
-package com.baeldung.server;
+package com.assignment.server;
 
 import com.baeldung.api.CabBookingService;
 import org.springframework.boot.SpringApplication;
@@ -15,16 +15,12 @@ public class RmiServer {
 
     @Bean RmiServiceExporter exporter(CabBookingService implementation) {
 
-        // Expose a service via RMI. Remote obect URL is:
-        // rmi://<HOST>:<PORT>/<SERVICE_NAME>
-        // 1099 is the default port
-
         Class<CabBookingService> serviceInterface = CabBookingService.class;
         RmiServiceExporter exporter = new RmiServiceExporter();
         exporter.setServiceInterface(serviceInterface);
         exporter.setService(implementation);
         exporter.setServiceName(serviceInterface.getSimpleName());
-        exporter.setRegistryPort(1099);
+        exporter.setRegistryPort(1001);
         return exporter;
     }
 
